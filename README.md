@@ -2,8 +2,11 @@
 
 Приложение для управления и оптимизации работы Discord с различными режимами запуска.
 
+
+
 ![image](https://github.com/user-attachments/assets/14c4141e-14bd-4f0c-97f1-8ccc97648fbe)
 
+Автор discord-fix-service.exe (winws.exe): https://github.com/therealsdy/DiscordFix
 
 ## Возможности
 
@@ -39,10 +42,37 @@
    ```
    pip install PyQt5 PyQtWebEngine pywin32
    ```
+   ```
+   pip install -r requirements.txt
+   ```
 4. Запустите программу:
    ```
    python discord-fix.py
    ```
+
+## Процессы и безопасность
+
+### Процессы в системе
+При запуске программы в диспетчере задач (Task Manager) вы можете увидеть следующие процессы:
+- `Discord-Fix.exe` - основной процесс программы
+- `discord-fix-service.exe` (winws.exe) - сервисный процесс для управления Discord
+
+### Проверка файлов
+Для проверки безопасности файлов вы можете использовать следующие хеши:
+
+**Discord-Fix.exe**
+[- MD5: [MD5_HASH]
+- SHA1: [SHA1_HASH]
+- SHA256: [SHA256_HASH]](https://www.virustotal.com/gui/file/c875292f43a6678640d8ac0447d772d769dcc8b0173b961575daa7082b6ebe1e?nocache=1)
+
+**discord-fix-service.exe**
+- MD5: [MD5_HASH]
+- SHA1: [SHA1_HASH]
+- SHA256: [SHA256_HASH]
+
+Проверить файлы на VirusTotal:
+- Discord-Fix.exe: [VIRUSTOTAL_LINK]
+- discord-fix-service.exe: [VIRUSTOTAL_LINK]
 
 ## Использование
 
